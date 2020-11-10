@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>ATM</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='style/index.css'>
+    </head>
+
+    <body>
+        
+        <div class="wrapper">
+            <div class="main">
+              <div class="header">
+                <h1>ATM</h1>
+                <div class="welcome">
+                  <span>Bem vindo</span>
+                  <span id="nome">Seu nome</span>
+                </div>
+              </div>
+              <div class="atm">
+                <div class="account">
+                  <div class="item">
+                    <span>Saldo</span>
+                    <span>
+                      <span class="symbol">$</span> <span class="value" id="saldo">9.999.999 &infin;</span>
+                    </span>
+                  </div>
+                  <div class="item">
+                    <span>Notas disponíveis</span>
+                    <span>
+                      <span class="bill">$ 100.00</span>
+                      <span class="bill">$ 50.00</span>
+                      <span class="bill">$ 20.00</span>
+                      <span class="bill">$ 10.00</span>
+                    </span>
+                  </div>
+                  <div class="withdraw" id="retirar">
+                    
+                  </div>
+                </div>
+                <div class="action">
+                  <input type="text" class="input" value="" readonly id="visor" />
+                  <div class="keyboard">
+                    <div class="line">
+                      <div class="botão">1</div>
+                      <div class="botão">2</div>
+                      <div class="botão">3</div>
+                    </div>
+                    <div class="line">
+                      <div class="botão">4</div>
+                      <div class="botão">5</div>
+                      <div class="botão">6</div>
+                    </div>
+                    <div class="line">
+                      <div class="botão">7</div>
+                      <div class="botão">8</div>
+                      <div class="botão">9</div>
+                    </div>
+                    <div class="line">
+                      <div class="action gray" id="limpar">Limpar</div>
+                      <div class="botão">0</div>
+                      <div class="action pink" id="confirmar">Confirmar</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fast-withdraw"></div>
+            </div>
+          </div>
+
+          <script src="script/script.js"></script>
+
+    </body>
+
+</html>
